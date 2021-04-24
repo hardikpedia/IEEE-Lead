@@ -1,0 +1,64 @@
+#myImage{
+text-align: center;
+ border-radius: 20px;
+}
+
+.section-title h1{
+    text-align: center;
+   
+}
+.section-title {
+    margin-bottom: 90px;
+}
+.fa-bootstrap{
+    color: purple;
+}
+.fa-html5{
+    color: orangered;
+}
+#cclogo{
+  height: 140px;
+  width: 130px;
+  margin-top: 10px;
+}
+#clogo{
+  height: 140px;
+  width: 140px;
+  margin-top: 10px;
+}
+.fa-css3-alt{
+    color: blue;
+}
+.fa-js{
+    color: yellow;
+}
+#about{
+    height: 100vh;
+}
+
+/* .row{
+    text-align:center;
+    margin:0 auto;
+}
+
+.row .col-md-6{
+   display:inline-block;
+   vertical-align: middle;
+   float: none;
+} */
+.skillset .icon-box {
+    text-align: center;
+    background: rgba(204, 204, 204, 0.1);
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 20px;
+  }
+  
+  .skillset .icon-box:hover {
+    background: #b407f8;
+    border-color: #66776e;
+  }
+
+#skillset{
+    height: 100vh;
+}
