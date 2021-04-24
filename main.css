@@ -7,9 +7,7 @@ text-align: center;
     text-align: center;
    
 }
-.section-title {
-    margin-bottom: 90px;
-}
+
 .fa-bootstrap{
     color: purple;
 }
@@ -36,7 +34,7 @@ text-align: center;
     height: 100vh;
 }
 
-/* .row{
+.row{
     text-align:center;
     margin:0 auto;
 }
@@ -45,7 +43,7 @@ text-align: center;
    display:inline-block;
    vertical-align: middle;
    float: none;
-} */
+} 
 .skillset .icon-box {
     text-align: center;
     background: rgba(204, 204, 204, 0.1);
@@ -61,4 +59,82 @@ text-align: center;
 
 #skillset{
     height: 100vh;
+}
+.icon-box{
+    margin-left: 1000px;
+    padding-left: 1000px;
+}
+.row1,.row2{
+ text-align: center;
+}
+.container{
+    float: none;
+}
+.row1{
+    text-align:center;
+    margin:0 auto;
+}
+
+.row1 .col-md-3{
+   display:inline-block;
+   vertical-align: middle;
+   float: none;
+   
+}
+.col-md-3{
+    margin: 30px;
+}
+#projects{
+    margin-top: 100px;
+    height: 100vh;
+}
+.contact{
+height: 100vh;
+}
+
+
+/* 
+contact starting */
+
+#contact{
+    background-color:#6f8c84;    
+}
+
+#contact .row{
+    color:white;
+    text-align:right;
+    padding:30px;
+}
+
+#contact h2{
+    font-weight: lighter;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding-bottom:5px;
+    padding-top:0px;
+}
+
+#contact label{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.contact-content{
+    padding:30px;
+}
+.contact-form{
+    padding:30px;
+}
+
+.form-row{
+    padding:5px;
+}
+
+.form-control{
+    border-radius:0px;
+}
+
+.btn{
+    border-radius:0px;
+    margin-top:15px;
 }
