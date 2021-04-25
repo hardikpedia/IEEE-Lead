@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Hardik Gupta</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
 </head>
-<!-- <OP></OP> -->
+
 <body>
+  <!-- navigation menu starts -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Portfolio</a>
@@ -31,13 +32,18 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact </a>
+            <a class="nav-link " href="#contact" tabindex="-1" aria-disabled="true">Contact </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
+   <!-- navigation menu ends -->
+   
+   
+   
+   
+   <!-- About Section starts -->
   <div id="about">
     <div class="jumbotron" id="aboutPage">
       <h1 class="display-4" style="font-weight: bold;">Hardik Gupta</h1>
@@ -60,8 +66,14 @@
     </div>
 
   </div>
-
-  <div>
+  <!-- About Section ends-->
+  
+  
+  
+  
+  <!-- skill section starts -->
+  <section>
+   <div>
     <section id="skillset" class="services">
       <div class="container">
 
@@ -90,7 +102,7 @@
           <div class="col-md-3">
             <!--content-->
             <h4>HTML</h4>
-            <i class="fab fa-html5 fa-10x"></i>
+            <i class="fab fa-html5 fa-7x"></i>
           </div>
           <!--
        -->
@@ -98,19 +110,19 @@
             <!--content-->
             <h4>CSS</h4>
 
-            <i class="fab fa-css3-alt fa-10x"></i>
+            <i class="fab fa-css3-alt fa-7x"></i>
           </div>
           <!--
        -->
           <div class="col-md-3">
             <!--content-->
             <h4>JavaScript</h4>
-            <i class="fab fa-js fa-10x"></i>
+            <i class="fab fa-js fa-7x"></i>
           </div>
           <div class="col-md-3">
             <!--content-->
             <h4>Bootstrap</h4>
-            <i class="fab fa-bootstrap fa-10x"></i>
+            <i class="fab fa-bootstrap fa-7x"></i>
 
 
           </div>
@@ -118,86 +130,161 @@
       </div>
     </section>
   </div>
+</section>
+   
+   <!-- Skills Section ends -->
 
-  <div>
+
+   <!-- Projects section starts -->
+   <!-- <section class="carouselUse">
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/myImage.jpeg" id="proj" class="d-block w-100" alt="..." height="300px" width="auto">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+   </section>
+   -->
+ <section>
+   <div>
     <section id="projects" class="services">
       <div class="container">
 
         <div class="section-title">
           <h1>Projects</h1>
         </div>
-        <div class="row1">
-          <div class="col-md-3">
-            <h4>My Portfolio</h4>
-            <a href="#"><img
-              src="data:image/png;base64,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"
-              alt="c" id="clogo"></a>
+        <div class="bd-example">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <a href="https://hardikpedia.github.io/IEEE-Lead/"><img src="assets/myImage.jpeg" id="proj" class="d-block w-100" alt="..." height="400px" ></a> 
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-        
-          <div class="col-md-3">
-          
-            <h4>C++</h4>
-            <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAADuCAMAAAB24dnhAAAA2FBMVEX///9lmtIARIIAWZxhmNFVkc9alNAAV5sASpUAQoEALHcAVZtdltBimNEAPn/k6vEAM3oATZYANHpqn9cAPH4AT5e/zuDz9voAKXYAMHl0o9a1x9tchrTY5PKeveEAR5SpxOTV4vEcY6K6z+mNstyQtN3L1eOSrMqCq9mnw+PK2u7t8vm1zOcNSYUSWZg7YpNUc56uu86pt8s5drFOfa8SU4+drcRhfaSJnLhJa5nV3OYmVIt0jK6TpL68x9dgibYrbKlzlb5FeKwAOI6CoMNCcqkxYpp6kbHIKcy1AAANZElEQVR4nNWdYX+aSBDG1QgGBDRASjTVaEysjebUNNVEU9vmmuv3/0aHokZ0gZnZXTDPm571V+Tv7izz7Mx6uVwKanSavXo+X+81O400Pk+++l8N1TDzK5n+f37tZ31H/GoqG6K1DKWZ9T1xqqMa+QMZaifr++JQo64eIi2l1j9qbHk3ChtpGVzKzYcMrZZSjGTyVVS+Zn2HaN0ZjGDaCy3jLuu7RMkPJjOJyZ+DHym0vNvoYNqTcutlfbcwDVjLeOQcVFpZ3y9Ad3kE0gorf+yhVQEFU1h+aFWyvu8YeU0FjbTCOuLQQgVTWIY6yPrumWpjg2kPK9/OmuBA/R5t5r3LVHtHljk143MimIpHZUqYBoOi4zElkQaDItU5htDq3/AGU1jHYEq+igimsLI2JQCDQVGWpgRmMCjKzJQgDAZFyk0GmVNL1DIepfRNyZ0pGWmFZaYZWhSDQVGKpsQPplSQVlgpmRIOg0FRGqYE7dYFYEn2+/1eOsEUlm9KJIaWEINBwpJmSoQZDIrkmJK2I9BgUCTelIg2GBSZili/L8FgUCTSlEgyGBQZhpjQkmcwKBJiSuLKgRmJ25S0lKOZee/iMyV3xSNEWsooUjOntAwGRURTkqbBoIhiSlI2GBRhTUkGBoMijCmpZGIwKIKbEmI5MPqT80Vjq2Je8MVBpkSowTAMVVXy9ZtmszUYDFqt5m2vbiqqKjLvSjYl4gxG0eepNzttRmLdb3eadZ9MVJIcb0r4y4GBTB/oppMw2xudnqoaYj4vxpSIMRimoTgtYNLZ+Jrf73GkKaoI2REy0Q3VaaGsXKWVV0V8lyxT4onIifxBuiUYg/atkLRZre+lGA0B35apGgOiKfBahoBZWFRD32iDf4Ew1TyXKe2Y/FimskPV5596RpHbZwsIalN9j2eHl0nQhrcAS+psrtXkvJS40oTHvRNnrJf2CucuhJEXWJ9t81bz1OCZ3+P6coRvc3Pl045y8ra8SINroIyi8DJ6g7wz4hR/lU+uuv41bnkGSu2JRlqqR8yqv5VLJyfln/4VeNJyRVKVb0CYPc63ko/k69TL3XFAqdKao9rYu3LU6wDp5OTsU65FXm2KeYmdUf08Jm9bBdNG5T/0tc+oy0Naqo74tlfBtFHpMVenMklZInbVA1I5jyc7SD7Ude5omXK5GwiVY1yXQ0y+iFBpMEGonPxOMHFCpcOUPAOdbwejRIaSvUa8K3a18HMiFhINysynxRTniljBRIcyjRTbC71IP8wKJjqUkmonKNsYbXMiQVBp98N3Dqkc5Z8YJAKUcZsuk28j9hYLp3gdPfNIUGkuEhs54VtgL+M8UEoGh9L6OxPQeYwLJhpUNme3BhsjsmMwBEKl9tQNq75a1x0zZhmnQ2Ux+ZYKJmByMFGgjMxOlrSMfYMhCsosctyW54vjn6tJyzgVSiX1znjtwW1dVVZS67eDNoGt//kcjoSDIqwSlVZdUY3iNn8zi4aq1AfI0PxzhRgmHBR+76hTZ+/4G0odkWtdllHDhIIysQMVe24HXCdp/zpFImGgkAOV2I8Basr2fl6B1zwKFGqgGpB+DNVJiq0vp7hgwkKhlr4WrHJhxrdYfjo5JwwTAgrzjPLgG/wHFfV3Nd5OaUhwKAOeyfZNxI5xscjeu/Z+I5dxCpQCfmQiK/0mc3dgckZHAkMVwRt96O4FBlX3+ow68zBQ4GWiQvg5lL3cv/JIWcYpUECm6B2tOKrQnhs2JyJDFaG7LXVSN9BOsjI+x+ZEZCjo7KN2ZGy6H7q/zviRoFDAta9NLvQryxys/5k3mFBQwBTJJBf6l8/2L/zBhIEyWiAmevnY1+8TAcGEgVJBu+cevcvEMa7FIUGhQAPF0bcF3PoSCgUKKfJAxVcwZEEZoJYqYkQlVTCkQYE2FEjdojHlwLVKZ4HYMVdevxu+BgQKtE6gG29W+pYUTKXSp0CXLKryn+DN7muICgIFevTuV5EAggRTqby+foW1/3J2uX73c+jLAU0/0OxDI4GCSRoUZPGrIGdfqEUqA6jiDQCqgxwpaAVDFhRoRUeFlPMNXMGQBgXZc6nDF3RgOVAyFOQxBQ4pcDnw7HSlqw3Uv8HrYGUvBy/+3UA9XgV/UQJDARwiPEeCBtNZoxJo8xHrl6vnVflPP3i1edisX/aDOQCAgthe4OKHKAeeRjwcu0tvfP4l4j7gUIDKQAMClZwTfTgodr/hx4Zy3r4jkD4ElPNY0LT7fz4WVPxC4RjfrYIvDJZsKMDq149Z0p38f65WCKR9h2JJhuJ8+Dpv2gZpJWBolUrllc7XH1C5Cl4HbmX95uk2ozjfeVNYmhR1zt95vLcKIUHnYCnQNk26Wv/F7rs7adLumxAoSPPODXMT3THne0jY0JKV+5mQ6sCAkaU7+TdXO2RChVamJpGxpjuvGhsJFVqyRsoEQB2sFMtgimGCzkFpI6VAoHqhoHLM/9wYIvgclAalQvqjwifm3mJH6X0OJmKVSqumOs9rsKDOL4M3KbtJoJLbO5TzWmCseUwlz8HSVSB2h9L5+t1wqgyCAjVkbnYpNjkRTLiEECgIlAnqNwjOLyyDCTTztlTw5V0oFLCUszzd6ACDKSycKREFBeqkbCj+Mk5A8ker8A+861cUFPA3HXuYYNrDur/matwhQIH2aP2o0knjtJLuVd7wLZg8UNCGl0mVymRP/H9+WRJU+AVCAVtNh8T5Zw2Df0/sxKRBwQqkuZyHW87fB2q7KUnqmaVBgfsyZxcUpovuzhUEdPJAu8ig5xDHBCr9IXwJdB86EQo6//zFQkcz/di/Bm93HLTdFNrw51Mhx+picngNzj5GcGMwvIN7fIFYLbSLMfMiXB2n4L50RK991wav7JbdjboKR28wvNkecWTZG9qgwdLsYUw3A72LGwwFTJU2X7MOGCxLZ4TTriqvtH57+FkPBfdbhKOkRNDSR8lXpJ2MgENhj2J3h3rM3ourDyOjKSRK5oQ4FIYbKl+zaY0dW5Zdm86gVyGcNkJA4aIquKGHoW67ITNsubb+/IA6lzjDngvDnEkk/WaDt3h6tvVa1fZVren289MCf9LyEl4rxkI5PwlQAdmsu/DVrZBPxaI2Z+BQjjHfyzxT1NjGbKVBoYJyYDWr/0Oti6mUQKHWFQxrmg3TNHg4QLfSQFDv5UB9kQXTYm1noNu5AKhQBcPOYALubBLAsBKh9sqB7nP6UKPdPBISWklQB+XA6oFPla2DjbfE0IqHcj4flgMvYDmbMB3u5STOwTioiHJgumHF3HVLwIqBiqpgWPM0oVg9C6s5GIMVCbVskWJfruCO0mMaRduXaKoIqPhyoP2SFtOLHX0X0XOQCbXbIsVU9Skdpqda3F1EFiFZUIByYC0Vqh/JG6PM5f0QClYO1FOgAjCx5+D+r5f5BgO2aSd/rOLnXjRW6TrXQwXTjqqSV4sXGFPhIHMqvYaOR+73G8bLlrqyj2LWvUPthlb5d+5uC3XYb5ggdy4tt/Dmia1NIe3OwfPL7YEGdr9hvGJ2wvmE2I0/xLrqr3+tP7rfMF4XUnL2H6R65Dq0Ssvf61+2fzmvkTlRgqrPwqeg94wKp10tQytol3NYBgMsyxbs8Bf4qbfVag6urnL3HReU+9JHAgfLG4FXcjaW+ym4ELX7YSOrKmw/cFLl+4IL1ma7oc/35fiy50KWwe4cVqyLUW1bxViQVptdafqI++c0Z88cvU1rXewEOL5P4ECWPuXCmo0gxccEhUuT2D4BNtaIPAm7zwKQDroXFrwRusKqzSlLhje5rwlAcqsHDxdvyj+jl/X26gtyuBZR9UbkJ+tT1pNlNq+KuLhVdV/Az+PFi10VMEh+ZjOPqreOXQFzsLCcCPpokljUnU2edZueyoQ+0GX3zQR6EhGvS1luzR4+jWfMZMObjf8OqzVX1Gcl7S0k9z+ApWmuXdO14fRp8rBYdH0txg+Tv9OhpVdtF2NH4z8G8oj0H+uCPm79oa7rLovYvvw//BeiaAJBk5kHW0xopSDXhj9D/l4Imu5yZV38xRiEioA8TLa02jM2MVvci3gkypNm31Pc6aR2xKHl1hLa6qLkvYh6aomWpr/Q3fZsWDvCOajVhuAeNKYW2rGFln9D/Fs9P44rtKyakK1GMaZEjCIMBkViTAm/tGiDQdHYOoI5GG8wKHqKa/NNQ4kGg6K+OFNCkIg9OKa6c/LxPF4J2i1l6kGQ30fKdeX2uWZgSnyDIRUpJ9Tvg6TpaINBUTdFU0I0GBSlZkrIBoOidEyJxWMwKKpINyXcBoOiRUFmaAkxGBRJNCWuGINBkSxTItBgUCTD72vVDIIprLEmeA66lmiDQZFQU+Km0R0JUV9YaGmQE6VpaSbGlFQlGgyKBJgS2QaDIk5TkoLBoIjHlEhz6/zqfqdlTr7BOK5gCovUBZaqwaAIb0pSNxgUVZ4xmZNvMI41mMKCmxLNLmRjMCgChlaGBoMiP7QSBytjg0FRkinJxK3za6HFNLe42jEYDIqeonoTpVQw0hLblPjBdDwGg6LZfD+0BJcDs9Firm9/5UWzXH3+UYMprMpkGhxz1O6nkzTyh/8BXVeuiN53p+AAAAAASUVORK5CYII="
-              alt="c++" id="cclogo">
-          </div>
-      
-    
-          <div class="col-md-3">
-
-            <h4>HTML</h4>
-            <i class="fab fa-html5 fa-10x"></i>
-          </div>
-          
-     
         </div>
+
+        
       </div>
     </section>
   </div>
-  
-      <!-- contact section -->
-      <div id="contact">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 contact-content">
-            <h2>Write a message</h2>
-            <label>
-              If you are as freaky as me and think we can share a vibe drop me a message .
-              <br>
-               Will get back to you real soon. 
-            </label>
+</section> 
+      <!-- Projects section ends -->
 
-          </div>
 
-          <div class="col-lg-8 col-md-6 contact-form">
-            <form action="mailto:rahulharlalka96@gmail.com">
-              <div class="form-row">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Your Name">
-                </div>
-                <div class="col">
-                  <input type="email" class="form-control" placeholder="Your Email">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Subject">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col">
-                  <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col">
-                  <button type="submit" class="btn btn-dark btn-md">Send a Message</button>
-                </div>
-              </div>
-            </form>
 
-          </div>
-        </div>
+  <!-- contact section -->
+ <!-- <section id="contactMe"> -->
+  <!-- <h1>Contact Me</h1>
+  <div id="contact">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 contact-content">
+        <h2>Write a message</h2>
+        <label>
+          If you are as freaky as me and think we can share a vibe drop me a message .
+          <br>
+          Will get back to you real soon.
+        </label>
+
       </div>
+
+      <div class="col-lg-8 col-md-6 contact-form">
+        <form action="mailto:rahulharlalka96@gmail.com">
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <button type="submit" class="btn btn-dark btn-md">Send a Message</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+  <!-- contact section ends -->
 
 
 
