@@ -163,3 +163,44 @@ text-align: center;
     margin-top: 50px;
     align-content: center;
 }
+.fa-github{
+    color: black;
+}
+.fa-linkedin{
+    color: #0a66c2;
+}
+.fa-instagram{
+    color: ;
+}
+#socialmedia ul{
+list-style: none;
+display: inline-flex;
+text-align: justify;
+}
+#socialmedia ul li{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+}
+#socialmedia{
+    margin-top: 20vh;
+    display: inline-block;
+}
+.social-links{
+    margin-top: 20vh;
+    text-align: center;
+    
+}
+#contact-logo{
+    height: 20px;
+    width: 20px;
+    
+}
+.social-links a{
+    padding: 20px;
+}
+#contact-logo1{
+    height: 50px;
+}
+
