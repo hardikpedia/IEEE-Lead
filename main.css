@@ -173,9 +173,9 @@
 }
 
 #contactMe {
-    margin-top: 100px;
     text-align: center;
     height: 100vh;
+
 }
 
 /* contact ends */
@@ -219,6 +219,7 @@ footer {
 .social-links {
     margin-top: 20vh;
     text-align: center;
+    padding-top:40px ;
 
 }
 
@@ -272,6 +273,7 @@ body{
       display: inline-flex;
       text-align: center;
       margin: 50px;
+      z-index: -1;
   }
   .card-deck{
       text-align: center;
@@ -284,8 +286,20 @@ body{
    #projects {
        height: 200vh;
    }
+   #skillset{
+       height: 110vh;
+   }
   }
   #iot{
     height: 353.47px;
     width: 198px;
   }
+  #navi{
+      position: fixed;
+      width: 100%;
+  }
+  /* #about{
+   padding-top: 50px;   
+   
+  } */
+  
