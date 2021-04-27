@@ -1,20 +1,56 @@
+/* nav menu starts */
+#navi {
+    position: fixed;
+    width: 100%;
+}
+
+/* nav menu ends */
+
+
+/* Background animation starts */
+body {
+    background: linear-gradient(270deg, #64b3f4, #c2e59c);
+    background-size: 400% 400%;
+
+    animation: AnimationName 6s ease infinite;
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* Background animation ends */
+
+
+/* About section */
 #myImage {
     text-align: center;
     border-radius: 20px;
 }
 
+#about {
+    height: 100vh;
+}
+
+/* about section ends */
+
+
+
+
 /* skills section starts*/
 .section-title h1 {
     text-align: center;
 
-}
-
-.fa-bootstrap {
-    color: purple;
-}
-
-.fa-html5 {
-    color: orangered;
 }
 
 #cclogo {
@@ -29,16 +65,20 @@
     margin-top: 10px;
 }
 
+.fa-bootstrap {
+    color: purple;
+}
+
+.fa-html5 {
+    color: orangered;
+}
+
 .fa-css3-alt {
     color: blue;
 }
 
 .fa-js {
     color: yellow;
-}
-
-#about {
-    height: 100vh;
 }
 
 .row {
@@ -104,17 +144,59 @@
     margin-bottom: px;
 }
 
-/* skills section ends*/
-
-
-/* project section starts */
-#projects{
-    
-    height: 100vh;
-  
+.jumbotron {
+    padding-right: 130px;
+    padding-left: 20px;
+    display: block;
 }
 
-/* project section ends */
+/* skills section ends */
+
+
+
+
+
+/* Projects Section starts */
+#projects {
+
+    height: 100vh;
+
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    display: inline-flex;
+    text-align: center;
+    margin: 50px;
+    z-index: -1;
+}
+
+.card-deck {
+    text-align: center;
+}
+
+#discord {
+    height: 353.47px;
+    width: 198px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #projects {
+        height: 200vh;
+    }
+
+    #skillset {
+        height: 110vh;
+    }
+}
+
+#iot {
+    height: 353.47px;
+    width: 198px;
+}
+
+/* Project section ends */
 
 
 
@@ -180,10 +262,11 @@
 
 /* contact ends */
 
-.carousel-inner {
-    margin-top: 50px;
-    align-content: center;
-}
+
+
+
+
+/* Social links section  starts*/
 
 .fa-github {
     color: black;
@@ -219,7 +302,7 @@ footer {
 .social-links {
     margin-top: 20vh;
     text-align: center;
-    padding-top:40px ;
+    padding-top: 40px;
 
 }
 
@@ -237,69 +320,4 @@ footer {
     height: 50px;
 }
 
-.jumbotron {
-    padding-right: 130px;
-    padding-left: 20px;
-    display: block;
-}
-
-body{
-        background: linear-gradient(270deg,#64b3f4, #c2e59c);
-        background-size: 400% 400%;
-    
-        animation: AnimationName 6s ease infinite;
-    }
-    
-    @keyframes AnimationName {
-        0%{background-position:0% 50%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 50%}
-    }
-/* 
- body {
-    background: #c2e59c;
-
-     background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c); 
-    
-    background: linear-gradient(to right, #64b3f4, #c2e59c);
-  }  */
-  .carousel-control.left, .carousel-control.right {
-    left: 0;
-    z-index: 1;
-  }
-  .card{
-      height: 300px;
-      width: 200px;
-      display: inline-flex;
-      text-align: center;
-      margin: 50px;
-      z-index: -1;
-  }
-  .card-deck{
-      text-align: center;
-  }
-  #discord{
-      height: 353.47px;
-      width: 198px;
-  }
-  @media only screen and (max-width: 1024px){
-   #projects {
-       height: 200vh;
-   }
-   #skillset{
-       height: 110vh;
-   }
-  }
-  #iot{
-    height: 353.47px;
-    width: 198px;
-  }
-  #navi{
-      position: fixed;
-      width: 100%;
-  }
-  /* #about{
-   padding-top: 50px;   
-   
-  } */
-  
+/* Social links section ends */
